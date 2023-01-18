@@ -1,0 +1,48 @@
+body {
+    font-family: 'Antonio', sans-serif;
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-banner {
+    background-image: url("images/developer.png");
+    background-size: 75px 585px;
+    background-repeat: no-repeat;
+    padding-bottom: 300px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.top-banner-section {
+    display: flex;
+    padding-left: 8%;
+    padding-top: 5%;
+}
+
+.top-banner-section h3 {
+    font-size: 40px;
+    color: rgba(237, 118, 0, 0.884);
+}
+
+.top-banner-section h1 {
+    font-size: 50px;
+}
+
+.top-banner-section p {
+    text-align: justify;
+    color: gray;
+}
+
+.resume-button {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgba(237, 118, 0, 0.884), tomato);
+    padding: 10px 20px;
+    font-weight: 800;
+    font-size: 18px;
+    border-radius: 6px;
+}
