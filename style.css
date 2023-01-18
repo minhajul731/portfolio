@@ -47,7 +47,7 @@ body {
     background-image: url("images/developer.png");
     background-size: 75px 585px;
     background-repeat: no-repeat;
-    padding-bottom: 300px;
+    padding-bottom: 155px;
     margin-top: 20px;
     margin-left: 5px;
 }
@@ -57,6 +57,11 @@ body {
     padding-left: 8%;
     padding-top: 5%;
 }
+
+.top-banner-text {
+    margin-top: 60px;
+}
+
 
 .top-banner-section h3 {
     font-size: 40px;
@@ -80,4 +85,44 @@ body {
     font-weight: 800;
     font-size: 18px;
     border-radius: 6px;
+}
+
+.about {
+    padding: 0px 100px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.about-me {
+    background-color: rgba(237, 118, 0, 0.06);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.about-me-text {
+    padding: 0px 300px;
+}
+
+.about-me-text h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.about-me-text p {
+    text-align: center;
+    color: gray;
+}
+
+.about-section-info {
+    display: flex;
+}
+
+.about-section-info p {
+    margin-left: 200px;
+    text-align: center;
+}
+
+.about-section-info span {
+    font-weight: 600;
+    text-align: center;
 }
