@@ -97,6 +97,7 @@ body {
     background-color: rgba(237, 118, 0, 0.06);
     padding: 20px;
     border-radius: 8px;
+    margin-bottom: 60px;
 }
 
 .about-me-text {
@@ -125,4 +126,33 @@ body {
 .about-section-info span {
     font-weight: 600;
     text-align: center;
+}
+
+.what-i-do {
+    padding: 30px;
+}
+
+.what-i-do h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.what-i-do-card {
+    display: flex;
+    margin: 30px;
+}
+
+.what-i-do-card-style {
+    box-shadow: 5px 10px 30px rgba(128, 128, 128, 0.34);
+    padding: 20px 40px 60px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.what-i-do-card-style h4 {
+    font-size: 20px;
+}
+
+.what-i-do-card-style p {
+    color: gray;
 }
