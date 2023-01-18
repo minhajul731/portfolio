@@ -130,6 +130,7 @@ body {
 
 .what-i-do {
     padding: 30px;
+    margin-bottom: 100px;
 }
 
 .what-i-do h1 {
@@ -155,4 +156,48 @@ body {
 
 .what-i-do-card-style p {
     color: gray;
+}
+
+.summery-of-resume-parent {
+    margin-bottom: 100px;
+}
+
+.summery-of-resume-parent h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.summery-of-resume-card {
+    display: flex;
+    padding: 50px;
+    margin: 10px 30px;
+    align-items: center;
+}
+
+.summery-of-resume-card hr {
+    width: 95%;
+    margin: 40px 0px 30px;
+}
+
+.summery-of-resume-card p {
+    color: gray;
+    padding-right: 10px;
+}
+
+.summery-of-resume-card h3 {
+    color: gray;
+}
+
+.single-card {
+    padding: 3px;
+}
+
+.download-resume {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgba(237, 118, 0, 0.884), tomato);
+    padding: 10px 20px;
+    font-weight: 800;
+    font-size: 18px;
+    border-radius: 6px;
 }
