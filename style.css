@@ -169,7 +169,7 @@ body {
 
 .summery-of-resume-card {
     display: flex;
-    padding: 50px;
+    padding: 30px 50px;
     margin: 10px 30px;
     align-items: center;
 }
@@ -200,4 +200,51 @@ body {
     font-weight: 800;
     font-size: 18px;
     border-radius: 6px;
+    margin-left: 40%;
+}
+
+.contact-message-section {
+    margin-top: 100px;
+    padding: 0px 80px;
+}
+
+.lets-contact {
+    margin-bottom: 70px;
+}
+
+.contact-section p {
+    width: 35%;
+    color: gray;
+}
+
+.contact-message {
+    display: flex;
+    background-color: rgba(237, 118, 0, 0.06);
+    border-radius: 8px;
+    padding: 70px;
+}
+
+.message-section input {
+    border: none;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 90%;
+    border-radius: 5px;
+}
+
+.message-section textarea {
+    border: none;
+    padding: 20px;
+    margin-bottom: 32px;
+    width: 90%;
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-size: 15px;
+    color: gray;
 }
